@@ -1,0 +1,130 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+*{
+  flex-wrap: wrap;
+}
+
+
+nav {
+  height: 60px;
+  background-color: rgb(224, 224, 146);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 12px;
+}
+
+
+.logo {
+  font-size: 30px;
+  cursor: pointer;
+  color: rgb(133, 81, 13);
+}
+
+.nav_item {
+  cursor: pointer;
+  font-size: 30px;
+  color: rgb(133, 81, 13);
+}
+
+
+
+
+span {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: jus;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: rgb(133, 81, 13);
+
+}
+
+.round_box_parent {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: red !important; */
+  
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 30px;
+
+
+}
+
+
+.roound_box{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+h2{
+  text-align: center;
+  padding-top: 80px;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+
+.roundimg{
+  width: 120px;
+  height: 120px;
+   border: 1px solid rgb(118, 148, 78); 
+  border-radius: 50%; 
+}
+/* .round_box_parent .roound_box, { */
+  /* width: 120px;
+  height: 120px; */
+   /* border: 1px solid black;  */
+  /* text-align: center;
+  border-radius: 50%; 
+  
+  
+  
+
+} */
+
+
+
+/* ******section two******* */
+
+
+
+.round_box_parent_two{
+  display: flex;
+  justify-content: space-around;
+  /* background-color: red !important; */
+  cursor: pointer;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+
+
+.centerbox{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+.img{
+  width: 40px;
+  height: 80px;
+  border-radius: 20px;
+
+}
